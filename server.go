@@ -11,10 +11,10 @@ func main() {
 
 	app := fiber.New()
 
-	error := app.Listen(":3000")
+	error := app.Listen()
 	if error != nil {
 		fmt.Println("error starting server : ", error)
 	} else {
-		fmt.Println("listing on port 6000")
+		fmt.Println("listing on port 3000")
 	}
 }

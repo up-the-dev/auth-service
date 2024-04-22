@@ -1,0 +1,8 @@
+[+] git setup
+[+] air configuration for hot reload
+[ ] git hook setup
+[] app environment setup
+[] fiber app setup
+[] logger setup
+[] error handler setup
+[] testing setup
