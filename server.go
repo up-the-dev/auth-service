@@ -11,7 +11,7 @@ func main() {
 
 	app := fiber.New()
 
-	app.Listen(":3000")
+	error := app.Listen(":3000")
 	if error != nil {
 		fmt.Println("error starting server : ", error)
 	} else {
