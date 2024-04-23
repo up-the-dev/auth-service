@@ -1,8 +1,9 @@
 [+] git setup
 [+] air configuration for hot reload
-[ ] git hook setup
-[] app environment setup
+[+] git hook setup
+[+] app environment setup
 [] fiber app setup
+[] gracefull shutdown
 [] logger setup
 [] error handler setup
 [] testing setup
